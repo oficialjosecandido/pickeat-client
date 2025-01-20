@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "344943561927",
+    "project_id": "pickeat-b6570",
+    "storage_bucket": "pickeat-b6570.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:344943561927:android:914eeeeebc9af434ed82e2",
+        "android_client_info": {
+          "package_name": "it.pickeat.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "344943561927-smd11u18v3ke82ef47udqu4m6oburskr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "it.pickeat.app",
+            "certificate_hash": "656dc12392ab14dad8db8e08fe4abe64ac6864cf"
+          }
+        },
+        {
+          "client_id": "344943561927-q49er88fmi4907k38dfbbp80n6e7le8s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH5zWyLVUrnbtnJQX5I3cwRusXFweja5Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "344943561927-q49er88fmi4907k38dfbbp80n6e7le8s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "344943561927-quoue8q94nrrj296j49h828d0fuq9fni.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "it.pickeat.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

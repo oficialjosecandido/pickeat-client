@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>344943561927-quoue8q94nrrj296j49h828d0fuq9fni.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.344943561927-quoue8q94nrrj296j49h828d0fuq9fni</string>
+	<key>API_KEY</key>
+	<string>AIzaSyALO3PlFDuU4xzGHmq0OieSt15U148g1OU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>344943561927</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>it.pickeat.app</string>
+	<key>PROJECT_ID</key>
+	<string>pickeat-b6570</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pickeat-b6570.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:344943561927:ios:1a1a7e22aab0b024ed82e2</string>
+</dict>
+</plist>

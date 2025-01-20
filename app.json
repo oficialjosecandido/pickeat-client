@@ -1,0 +1,73 @@
+{
+  "expo": {
+    "name": "PickEat",
+    "slug": "pickeat",
+    "version": "2.3.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "it.pickeat.app",
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "infoPlist": {
+        "NSCameraUsageDescription": "We are allowing people to take photos of their business store or their service image to upload it and use it as their business image or service image, also they could take selfie and upload it as profile image",
+        "NSPhotoLibraryUsageDescription": "We are allowing people to pick photos of their business store or their service image to upload it and use it as their business image or service, also they could upload they profile image",
+        "NSLocationUsageDescription": "We are asking people to use their location in order to give them the best results while using our search system, as we are trying to provide them the closest services available",
+        "NSLocationWhenInUseUsageDescription": "We will be accessing your location in order to provide you the fastest services, and display the closest services for you"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "it.pickeat.app",
+      "googleServicesFile": "./google-services.json",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAYlOa9NAKLvcM-af1PoJmH-CUGuWzbPWo"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ],
+      "@react-native-google-signin/google-signin",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location."
+        }
+      ],
+      [
+        "@stripe/stripe-react-native",
+        {
+          "merchantIdentifier": "merchant.it.pickeat.app",
+          "enableGooglePay": true
+        }
+      ]
+    ],
+    "extra": {
+     
+    }
+  }
+}
